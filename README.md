@@ -7,3 +7,6 @@ A simple Django-based web application for the FastPrint programmer test. The app
 - PostgreSQL 17.2.3
 - HTML, CSS, JavaScript
 - Tailwind
+
+## Installation and Configuration
+Follow these steps to install and configure the Django-based application.
