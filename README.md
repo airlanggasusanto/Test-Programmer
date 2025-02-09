@@ -31,5 +31,8 @@ mkdir static  # On Windows use: md static
 # Apply database migrations
 python manage.py migrate
 
+# Fetch products via API (run only once)
+python manage.py fetch_data
+
 # Run the development server
 python manage.py runserver
