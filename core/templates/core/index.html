@@ -243,6 +243,7 @@
 
         async function openModal(isEdit = false, productId = null) {
             formModal.classList.remove("hidden");
+            document.querySelectorAll(".error-message").forEach(el => el.remove());
 
             if (isEdit && productId) {
                 modalTitle.textContent = "Edit Product";
@@ -340,8 +341,6 @@
             const categoryVal = productCategorySelect.value;
             const priceVal = parseFloat(productPriceInput.value);
             const statusVal = productStatusSelect.value;
-
-            document.querySelectorAll(".error-message").forEach(el => el.remove());
 
             let isValid = true;
 
